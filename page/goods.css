@@ -1,0 +1,106 @@
+#cunName {
+    text-align: left;
+    font-size: 50px;
+}
+
+house-button {
+    margin: 0%;
+    width: 100%;
+}
+
+.goods {
+    width: 20%;
+    float: left;
+    border: 1px;
+    margin: 2px 0;
+    /* 透明度 */
+    /* opacity: 1; */
+    
+}
+.goods img {
+    display: inline-block;
+    width: 100%;
+    margin: 5px;
+    padding: 0;
+}
+
+.goods-name{
+    color: #222;
+    overflow: hidden;
+    text-align: center;
+    text-emphasis: ellipsis;
+    white-space: nowrap;
+    background-color: #ddd;
+}
+.goods-main:hover .goods-name{
+    color: #f2352e;
+}
+
+.columnCun {
+    float: left;
+    width: 100%;
+    background-color: #bbbbbb;
+}
+
+li {
+    list-style-type: none;
+}
+
+.columnCun li {
+    display: inline-block;
+    border: 1px solid #ddd;
+    padding: 3px 15px;
+    margin: 0 8px;
+    cursor: pointer ;
+}
+.columnCun li:hover {
+    background-color:#f2352e;
+}
+
+#yx {
+    float: right;
+}
+.page-bar{
+    /* position: fixed; */
+    display: block;
+    margin:0 40px;
+    bottom: 0;
+
+    
+}
+
+.page-bar li:first-child>a {
+    margin-left: 450px;
+}
+.page-bar a{
+    border: 1px solid #ddd;
+    text-decoration: none;
+    position: relative;
+    float: left;
+    padding: 6px 14px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: #222;
+    cursor: pointer;
+}
+.page-bar a:hover{
+    background-color: #f2352e;
+}
+a.banclick{
+    cursor:not-allowed;
+}
+.columnCun .active, .page-bar .active a{
+    color: #fff;
+    cursor: default;
+    background-color:#f2352e;
+    border-color: #ddd;
+}
+.page-bar i{
+font-style:normal;
+color: #d44950;
+margin: 0px 4px;
+font-size: 12px;
+}
+.clearfloat {
+clear:both
+}
