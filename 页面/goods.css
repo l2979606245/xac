@@ -1,3 +1,21 @@
+#cunName {
+    text-align: left;
+    font-size: 50px;
+}
+
+#navPage{ position:fixed; top:50%; left:0; text-align:left; transition:all .1s ease-out 0s; transform:translateY(-50%); -webkit-transform:translateY(-50%); -moz-transform:translateY(-50%); -ms-transform:translateY(-50%); -o-transform:translateY(-50%); }#navPage.noactive{left:-10%}#navPage li{position:relative;padding-left:40px}#navPage li:after{position:absolute;top:50%;left:0;display:block;width:0;height:1px;background:#da0502;content:"";transition:all .5s ease-out 0s}#navPage li.active:first-child:after{width:95px}#navPage li:first-child+li.active:after{width:95px}#navPage li:first-child+li+li.active:after{width:110px}#navPage li:first-child+li+li+li.active:after{width:95px}#navPage li:first-child+li+li+li+li.active:after{width:130px}#navPage li:first-child+li+li+li+li+li.active:after{width:115px}#navPage li:first-child+li+li+li+li+li+li.active:after{width:95px}#navPage li:first-child+li+li+li+li+li+li+li.active:after{width:115px}#navPage li a{display:inline-block;color:#aaa;font-weight:700;font-size:0;font-family:Arial;line-height:34px}#navPage li a i,#navPage li a span{display:inline-block;vertical-align:middle;font-size:14px}#navPage li a i{font-style:normal}#navPage li a span{overflow:hidden;width:0;white-space:nowrap;transition:all .5s ease-out 0s}#navPage li a:hover,#navPage li.active a{color:#da0502}#navPage li a:hover span,#navPage li.active a span{width:80px}
+/* .left_nav {
+    width: 150px;
+    height: 100%;
+    position: fixed;
+    float: left;
+    background-color: aqua;
+}
+
+.left_nav li {
+    list-style: none;
+    display: block;
+} */
 house-button {
     margin: 0%;
     width: 100%;
@@ -15,11 +33,6 @@ house-button {
 
     /* margin: 0%;
     padding: 10px; */
-    transform: scale(0.5);
-    -webkit-transform: scale(0.5);
-    -moz-transform: scale(0.5);
-    -ms-transform: scale(0.5);
-    -o-transform: scale(0.5);
 }
 /* .goods-main s{
     display: block;
@@ -39,19 +52,26 @@ house-button {
     text-align: center;
     text-emphasis: ellipsis;
     white-space: nowrap;
+    background-color: #ddd;
 }
 .goods-main:hover .goods-name{
     color: #f2352e;
 }
 
 .column {
-    display: block;
+    float: right;
     width: 100%;
+    background-color: #bbbbbb;
 }
 
-.column li{
+.column li {
     border: 1px solid #ddd;
-    padding: 5px 12px;
+    padding: 3px 15px;
+    margin: 0 8px;
+    cursor: pointer;
+}
+.column li:hover {
+    background-color:#f2352e;
 }
 
 .page-bar{

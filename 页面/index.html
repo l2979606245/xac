@@ -10,7 +10,24 @@
 </head>
 
 <body>
-    <div id="app">
+    <header>
+        <span id="cunName"><b> 兴旺庄村 </b></span>
+        <image src="./img/下拉图标.png "  name="↓" id="downicon">
+        <span>乡村切换</span>
+    </header>
+
+    <ul id="navPage" class="list-unstyled">
+        <li class="active" data-menuanchor="page1"><a href="#page1"><span>首页</span></a></li>
+        <li data-menuanchor="page2"><a href="#page2"><span>本地动态</span></a></li>
+        <li data-menuanchor="page3"><a href="#page3"><span>村民档案</span></a></li>
+        <li data-menuanchor="page4"><a href="#page4"><span>村务公开</span></a></li>
+        <li data-menuanchor="page5"><a href="#page5"><span>便民服务</span></a></li>
+        <li data-menuanchor="page6"><a href="#page6"><span>扶贫帮苦</span></a></li>
+        <li data-menuanchor="page7"><a href="#page6"><span>榜样人物</span></a></li>
+        <li data-menuanchor="page8"><a href="#page6"><i>C</i><span>ONTACT</span></a></li>
+    </ul>
+
+    <div id="content">
         <div class="column">
             <ul>
                 <li><</li>
@@ -60,7 +77,7 @@
         })
         //实例
         var app = new Vue({
-            el: '#app',
+            el: '#content',
             data: {
                 message: 'Hello Vue!',
                 list: [{ image: "./img/1.jpg", name: 'xxx' },
