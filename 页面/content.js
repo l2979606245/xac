@@ -17,7 +17,7 @@ Vue.component('house-button', {
 var app = new Vue({
     el: '#content',
     data: {
-        list: [{ image: "./img/11.jpg", name: 'xxx' },
+        list: [{ image: "./img/11.jpg", name: '1巷1户王乃刚' },
         { image: "./img/11.jpg", name: 'xxx' },
         { image: "./img/11.jpg", name: 'xxx' },
         { image: "./img/11.jpg", name: 'xxx' },

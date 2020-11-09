@@ -13,7 +13,8 @@ house-button {
     float: left;
     border: 1px;
     margin: 2px 0;
-    /*透明度*/opacity: 1;
+    /* 透明度 */
+    /* opacity: 1; */
     
 }
 .goods img {
@@ -35,23 +36,30 @@ house-button {
     color: #f2352e;
 }
 
-.column {
+.columnCun {
     float: left;
     width: 100%;
     background-color: #bbbbbb;
 }
 
-.column li {
+li {
+    list-style-type: none;
+}
+
+.columnCun li {
     display: inline-block;
     border: 1px solid #ddd;
     padding: 3px 15px;
     margin: 0 8px;
-    cursor: pointer;
+    cursor: pointer ;
 }
-.column li:hover {
+.columnCun li:hover {
     background-color:#f2352e;
 }
 
+#yx {
+    float: right;
+}
 .page-bar{
     /* position: fixed; */
     display: block;
@@ -76,12 +84,12 @@ house-button {
     cursor: pointer;
 }
 .page-bar a:hover{
-    background-color: #eee;
+    background-color: #f2352e;
 }
 a.banclick{
     cursor:not-allowed;
 }
-.column .active, .page-bar .active a{
+.columnCun .active, .page-bar .active a{
     color: #fff;
     cursor: default;
     background-color:#f2352e;
